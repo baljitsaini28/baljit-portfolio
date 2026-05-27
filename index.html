@@ -1,88 +1,386 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dr. Baljit Singh Saini</title>
+    <title>Dr. Baljit Singh Saini | Professor | Researcher</title>
+
     <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/4ad53f5d10.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
 
-    <header>
-        <h1>Dr. Baljit Singh Saini</h1>
+    <!-- NAVBAR -->
 
-    <img src="images/profile.jpeg"
-         alt="Dr. Baljit Singh Saini"
-         width="200">
+    <nav class="navbar">
+        <div class="logo">Dr. Baljit Singh Saini</div>
 
-    <p>
-        Professor | Researcher | RHCSA Certified |
-        Biometrics & AI Enthusiast
-    </p>
-    </header>
+        <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#research">Research</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#publications">Publications</a></li>
+            <li><a href="#achievements">Achievements</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
 
-    <section>
-        <h2>About Me</h2>
+        <div class="menu-btn" id="menu-btn">
+            <i class="fas fa-bars"></i>
+        </div>
+    </nav>
+
+    <!-- HERO SECTION -->
+
+    <section class="hero">
+
+        <div class="hero-content">
+
+            <div class="hero-text">
+
+                <p class="tagline">Professor • Researcher • RHCSA Certified</p>
+
+                <h1>
+                    Building Intelligent Systems Through
+                    Biometrics, AI & Research Innovation
+                </h1>
+
+                <p class="hero-description">
+                    Professor at Lovely Professional University with expertise in
+                    Biometrics, Keystroke Dynamics, Machine Learning,
+                    Medical Image Processing, Linux and AI-based authentication systems.
+                </p>
+
+                <div class="hero-buttons">
+                    <a href="#publications" class="btn primary-btn">View Publications</a>
+
+                    <a href="https://scholar.google.com/citations?user=gG2X3UwAAAAJ&hl=en"
+                        target="_blank"
+                        class="btn secondary-btn">
+                        Google Scholar
+                    </a>
+                </div>
+
+                <div class="hero-stats">
+
+                    <div class="stat-card">
+                        <h2>38+</h2>
+                        <p>Publications</p>
+                    </div>
+
+                    <div class="stat-card">
+                        <h2>14+</h2>
+                        <p>Years Experience</p>
+                    </div>
+
+                    <div class="stat-card">
+                        <h2>4+</h2>
+                        <p>IPR Filed</p>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="hero-image">
+                <img src="images/profile.jpg" alt="Dr Baljit Singh Saini">
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ABOUT -->
+
+    <section class="section" id="about">
+
+        <div class="section-title">
+            <span>ABOUT</span>
+            <h2>Professional Summary</h2>
+        </div>
+
+        <div class="about-grid">
+
+            <div class="about-card">
+                <h3>Academic Leadership</h3>
+
+                <p>
+                    Student-centered Professor with extensive expertise in Biometrics,
+                    Linux, AI and Machine Learning. Experienced in curriculum design,
+                    instructional planning and mentoring research scholars.
+                </p>
+            </div>
+
+            <div class="about-card">
+                <h3>Research Excellence</h3>
+
+                <p>
+                    Research focus includes Keystroke Dynamics,
+                    Medical Image Processing, Deep Learning,
+                    Authentication Systems and Healthcare AI.
+                </p>
+            </div>
+
+            <div class="about-card">
+                <h3>Technical Expertise</h3>
+
+                <p>
+                    RHCSA Certified professional with strong command over
+                    Linux Administration, Biometrics, Artificial Intelligence,
+                    C Programming and LaTeX.
+                </p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- RESEARCH -->
+
+    <section class="section dark-section" id="research">
+
+        <div class="section-title light">
+            <span>RESEARCH</span>
+            <h2>Research Interests</h2>
+        </div>
+
+        <div class="research-grid">
+
+            <div class="research-item">
+                <i class="fas fa-fingerprint"></i>
+                <h3>Biometrics</h3>
+            </div>
+
+            <div class="research-item">
+                <i class="fas fa-brain"></i>
+                <h3>Artificial Intelligence</h3>
+            </div>
+
+            <div class="research-item">
+                <i class="fas fa-keyboard"></i>
+                <h3>Keystroke Dynamics</h3>
+            </div>
+
+            <div class="research-item">
+                <i class="fas fa-heartbeat"></i>
+                <h3>Healthcare AI</h3>
+            </div>
+
+            <div class="research-item">
+                <i class="fas fa-laptop-code"></i>
+                <h3>Machine Learning</h3>
+            </div>
+
+            <div class="research-item">
+                <i class="fab fa-linux"></i>
+                <h3>Linux Systems</h3>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- EXPERIENCE -->
+
+    <section class="section" id="experience">
+
+        <div class="section-title">
+            <span>CAREER</span>
+            <h2>Professional Experience</h2>
+        </div>
+
+        <div class="timeline">
+
+            <div class="timeline-item">
+                <div class="timeline-year">2023 - Present</div>
+
+                <div class="timeline-content">
+                    <h3>Professor</h3>
+                    <p>Lovely Professional University</p>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-year">2019 - 2023</div>
+
+                <div class="timeline-content">
+                    <h3>Associate Professor</h3>
+                    <p>Lovely Professional University</p>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-year">2010 - 2019</div>
+
+                <div class="timeline-content">
+                    <h3>Assistant Professor</h3>
+                    <p>Lovely Professional University</p>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-year">2008 - 2009</div>
+
+                <div class="timeline-content">
+                    <h3>Lecturer</h3>
+                    <p>Hoshiarpur Institute of Management & Technology</p>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- PUBLICATIONS -->
+
+    <section class="section publications-section" id="publications">
+
+        <div class="section-title">
+            <span>PUBLICATIONS</span>
+            <h2>Featured Research Work</h2>
+        </div>
+
+        <div class="publication-list">
+
+            <div class="publication-card">
+                <h3>
+                    Pap-net: A systematic framework for denoising pap smear images
+                </h3>
+
+                <p>
+                    SN Computer Science, 2025
+                </p>
+            </div>
+
+            <div class="publication-card">
+                <h3>
+                    Recent developments in denoising medical images using deep learning
+                </h3>
+
+                <p>
+                    Micron, 2024
+                </p>
+            </div>
+
+            <div class="publication-card">
+                <h3>
+                    A three-step authentication model for mobile phone user using keystroke dynamics
+                </h3>
+
+                <p>
+                    IEEE Access, 2020
+                </p>
+            </div>
+
+            <div class="publication-card">
+                <h3>
+                    Keystroke dynamics for mobile phones: A survey
+                </h3>
+
+                <p>
+                    Indian Journal of Science and Technology, 2016
+                </p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ACHIEVEMENTS -->
+
+    <section class="section dark-section" id="achievements">
+
+        <div class="section-title light">
+            <span>ACHIEVEMENTS</span>
+            <h2>Recognition & Awards</h2>
+        </div>
+
+        <div class="achievement-grid">
+
+            <div class="achievement-card">
+                <h3>Young Researchers Award</h3>
+                <p>Lovely Professional University</p>
+            </div>
+
+            <div class="achievement-card">
+                <h3>Teacher Appreciation Award</h3>
+                <p>2012-13 & 2013-14</p>
+            </div>
+
+            <div class="achievement-card">
+                <h3>RHCSA Certified</h3>
+                <p>RedHat Certified System Administrator</p>
+            </div>
+
+            <div class="achievement-card">
+                <h3>Patent Holder</h3>
+                <p>Maintaining Social Distancing System</p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- CONTACT -->
+
+    <section class="section" id="contact">
+
+        <div class="section-title">
+            <span>CONNECT</span>
+            <h2>Get In Touch</h2>
+        </div>
+
+        <div class="contact-grid">
+
+            <a href="mailto:baljitsaini28@gmail.com" class="contact-card">
+                <i class="fas fa-envelope"></i>
+                <h3>Email</h3>
+            </a>
+
+            <a href="https://www.linkedin.com/in/dr-baljit-singh-saini/"
+                target="_blank"
+                class="contact-card">
+
+                <i class="fab fa-linkedin"></i>
+                <h3>LinkedIn</h3>
+            </a>
+
+            <a href="https://scholar.google.com/citations?user=gG2X3UwAAAAJ&hl=en"
+                target="_blank"
+                class="contact-card">
+
+                <i class="fas fa-graduation-cap"></i>
+                <h3>Google Scholar</h3>
+            </a>
+
+            <a href="https://www.youtube.com/dextutor"
+                target="_blank"
+                class="contact-card">
+
+                <i class="fab fa-youtube"></i>
+                <h3>YouTube</h3>
+            </a>
+
+        </div>
+
+    </section>
+
+    <!-- FOOTER -->
+
+    <footer>
         <p>
-            Professor at Lovely Professional University with expertise in
-            Biometrics, Keystroke Dynamics, Linux, Artificial Intelligence,
-            and Machine Learning.
+            © 2026 Dr. Baljit Singh Saini • Academic Portfolio
         </p>
-
-        <p>
-            Passionate about teaching, research, curriculum development,
-            and creating educational content.
-        </p>
-    </section>
-
-    <section>
-        <h2>Research Interests</h2>
-
-        <ul>
-            <li>Biometrics & Keystroke Dynamics</li>
-            <li>Artificial Intelligence</li>
-            <li>Machine Learning</li>
-            <li>Medical Image Processing</li>
-            <li>Cyber Security</li>
-            <li>Linux & System Administration</li>
-        </ul>
-    </section>
-
-    <section>
-        <h2>Profiles</h2>
-
-        <ul>
-            <li>
-                <a href="https://www.linkedin.com/in/dr-baljit-singh-saini/" target="_blank">
-                    LinkedIn
-                </a>
-            </li>
-
-            <li>
-                <a href="https://scholar.google.com/citations?user=gG2X3UwAAAAJ&hl=en" target="_blank">
-                    Google Scholar
-                </a>
-            </li>
-
-            <li>
-                Scopus Author ID: 57170124500
-            </li>
-        </ul>
-    </section>
-
-    <section>
-        <h2>Achievements</h2>
-
-        <ul>
-            <li>37+ Research Publications</li>
-            <li>Patent Holder</li>
-            <li>RHCSA Certified</li>
-            <li>Young Researchers Award Recipient</li>
-            <li>Teacher Appreciation Award Recipient</li>
-        </ul>
-    </section>
+    </footer>
 
     <script src="script.js"></script>
 
 </body>
+
 </html>
