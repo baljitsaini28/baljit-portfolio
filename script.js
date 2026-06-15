@@ -148,6 +148,19 @@
     });
   });
 
+  // Apply the default active filter on load (SCI/Scopus)
+  const defaultFilterBtn = document.querySelector('.pub-filter.active') || document.querySelector('.pub-filter');
+  if (defaultFilterBtn) {
+    const filter = defaultFilterBtn.dataset.filter;
+    pubItems.forEach(item => {
+      if (filter === 'all' || item.dataset.type === filter) {
+        item.classList.remove('hidden');
+      } else {
+        item.classList.add('hidden');
+      }
+    });
+  }
+
   // Inject keyframe if not present
   if (!document.querySelector('#dynStyles')) {
     const style = document.createElement('style');
